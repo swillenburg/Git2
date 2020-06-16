@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/user" path="/user" id="cc488bc8-edf4-4746-843d-a28a7d6b2c6d" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="cc488bc8-edf4-4746-843d-a28a7d6b2c6dfileName">%2Fuser</con:setting></con:settings><con:parameters/><con:method name="createUser" id="a34185db-74dd-4018-b0e2-a6b058299fe4" method="POST"><con:description>This can only be done by the logged in user.&#13;
+<con:resource name="/user" path="/user" id="cc488bc8-edf4-4746-843d-a28a7d6b2c6d" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="cc488bc8-edf4-4746-843d-a28a7d6b2c6dfileName">%2Fuser</con:setting></con:settings><con:parameters/><con:method name="createUser" id="a34185db-74dd-4018-b0e2-a6b058299fe4" method="POST"><con:description>This can only be done by the logged in user.&#13;
 Create user</con:description><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/><con:sampleContent>{&#13;
   "id" : 0,&#13;
   "username" : "string",&#13;
@@ -18,4 +18,4 @@ Create user</con:description><con:settings/><con:parameters/><con:representation
   "password" : "string",\r
   "phone" : "string",\r
   "userStatus" : 0\r
-}</con:request><con:parameters/></con:request></con:method></con:resource>
+}</con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource>
