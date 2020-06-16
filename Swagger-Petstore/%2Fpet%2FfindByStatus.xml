@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="/pet/findByStatus" path="/pet/findByStatus" id="9d370f8c-7460-44a8-b101-f596fdedbfbd" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="9d370f8c-7460-44a8-b101-f596fdedbfbdfileName">%2Fpet%2FfindByStatus</con:setting></con:settings><con:parameters/><con:method name="findPetsByStatus" id="baffe628-aa72-4d37-a10e-311956b5ee15" method="GET"><con:description>Multiple status values can be provided with comma separated strings&#13;
+Finds Pets by status</con:description><con:settings/><con:parameters><con:parameter required="true"><con:name>status</con:name><con:style>QUERY</con:style><con:dataType>array</con:dataType><con:description>Status values that need to be considered for filter</con:description></con:parameter></con:parameters><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>200</con:status><con:params/><con:sampleContent><![CDATA[<Pet>
+   <id>0</id>
+   <Category>
+      <id>0</id>
+      <name>string</name>
+   </Category>
+   <name>doggie</name>
+   <photoUrlss>
+      <photoUrl>string</photoUrl>
+   </photoUrlss>
+   <tagss>
+      <tag>
+         <id>0</id>
+         <name>string</name>
+      </tag>
+   </tagss>
+   <status>available</status>
+</Pet>]]></con:sampleContent></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/xml</con:mediaType><con:status>400</con:status><con:params/></con:representation><con:request name="Request 1" id="97cc0e70-fb9b-4a4d-8484-31b4eb253714" mediaType="application/json"><con:settings/><con:endpoint>http://petstore.swagger.io</con:endpoint><con:parameters/></con:request></con:method></con:resource>
